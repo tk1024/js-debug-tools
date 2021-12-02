@@ -1,5 +1,11 @@
+import Link from "next/link"
+
 export default function Home() {
   return (
-    <div>front page</div>
+    <ul>
+      <li>
+        <Link href="/canvas">ブラウザでCanvasを書いて確認するツール</Link>
+        </li>
+    </ul>
   )
 }
